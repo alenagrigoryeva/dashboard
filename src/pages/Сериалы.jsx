@@ -24,9 +24,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { CardActionArea } from '@mui/material';
 
-import FormControlLabel from '@mui/material/FormControlLabel';
 import Button from '@mui/material/Button';
-import Checkbox from '@mui/material/Checkbox';
 import TextField from '@mui/material/TextField';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -72,7 +70,7 @@ function loadFilms(request) {
     fetch("https://kinopoiskapiunofficial.tech/api/v2.2/films/collections?type=" + request + page, {
       method: 'GET',
       headers: {
-          'X-API-KEY': '938b1776-31c3-4752-bd61-f22983b11571',
+          'X-API-KEY': '3154071d-b0c9-4bb0-b588-6b82737e4610',
           'Content-Type': 'application/json',
       },
     })
@@ -93,7 +91,7 @@ function loadFilms(request) {
     fetch("https://kinopoiskapiunofficial.tech/api/v2.2/films/collections?type=" + request + numberPage, {
       method: 'GET',
       headers: {
-          'X-API-KEY': '938b1776-31c3-4752-bd61-f22983b11571',
+          'X-API-KEY': '3154071d-b0c9-4bb0-b588-6b82737e4610',
           'Content-Type': 'application/json',
       },
     })

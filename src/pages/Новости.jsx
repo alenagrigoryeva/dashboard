@@ -58,7 +58,7 @@ function loadNews() {
     fetch("https://kinopoiskapiunofficial.tech/api/v1/media_posts?page=" + page, {
       method: 'GET',
       headers: {
-          'X-API-KEY': '938b1776-31c3-4752-bd61-f22983b11571',
+          'X-API-KEY': '3154071d-b0c9-4bb0-b588-6b82737e4610',
           'Content-Type': 'application/json',
       },
     })
@@ -79,7 +79,7 @@ function loadNews() {
     fetch("https://kinopoiskapiunofficial.tech/api/v1/media_posts?page=" + numberPage, {
       method: 'GET',
       headers: {
-          'X-API-KEY': '938b1776-31c3-4752-bd61-f22983b11571',
+          'X-API-KEY': '3154071d-b0c9-4bb0-b588-6b82737e4610',
           'Content-Type': 'application/json',
       },
     })
